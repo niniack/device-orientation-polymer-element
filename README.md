@@ -24,19 +24,22 @@ and rotation value 359.0 is set to 24:59 in in time.
 
 To display the values, you can either use data binding in the shadow DOM of the device-orientation.js file like this:
 
+```html
 <span><p>API Available?:{{exist}}</p></span>
 <span><p>Corrected Rotation:{{corrected}}</p></span>
 <span><p>Original Value:{{original}}</p></span>
-
+```
 OR
 
 you may go to the index.html file in the demo folder and simply define some variables within the tags like this:
 
+```javascript
 <device-orientation>
   apiAvailable="{{exist}}"
   currentRotation="{{rotation}}"
   correctedRotation="{{corrected}}"
 </device-orientation>
+```
 
 Hopefully this helps somebody out, especially if you're just beginning with Polymer or Javascript or WebDev.  
 
