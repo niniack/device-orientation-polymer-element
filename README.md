@@ -1,9 +1,8 @@
 # \<device-orientation\>
 
 <snippet>
-  <content><![CDATA[
+  <content><![CDATA[# ${1: device-orientation}
 
-# ${1: device-orientation}
 A simple polymer element that uses the deviceorientation web event to display the orientation of your device.
 It displays the correct orientation by assuming that the orientation the device was originally in is the "start" orientation or the "origin"
 ## Installation
