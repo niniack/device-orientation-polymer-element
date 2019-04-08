@@ -1,5 +1,8 @@
 # \<device-orientation\>
 
+NPM (shields.io)
+[![v1.0.0](http://img.shields.io/npm/v/REPO.svg?style=flat)](https://www.npmjs.com/package/device-orientation-with-clock "View this project on npm")
+
 <snippet>
   <content><![CDATA[# ${1: device-orientation}
 
