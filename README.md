@@ -47,7 +47,7 @@ If you would like to use the clock functionality, navigate to the device-orienta
 
 In the static get properties() function:
 ```javascript
-// hour: {
+      // hour: {
       //   type: Number,
       //   notify: true,
       //   reflectToAttribute: true,
@@ -64,7 +64,7 @@ In the static get properties() function:
 and below 
 
 ```javascript
-// updateClock(currentAlpha){
+  // updateClock(currentAlpha){
   //   this.hour = Math.floor(currentAlpha/15);
   //   var tempMinute;
   //   tempMinute = Math.floor(currentAlpha/0.25);
